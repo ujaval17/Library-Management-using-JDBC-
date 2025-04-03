@@ -13,7 +13,7 @@ public class Main {
         operation op = new operation();
         while(start)
         {
-            System.out.println("Enter a Task To Perform \n 1.insert \n 2.update \n 3.delete \n 4.read \n 5.Search book \n 6.Exit");
+            System.out.println("Enter Task To Perform \n 1.insert \n 2.update \n 3.delete \n 4.read \n 5.Search book \n 6.Exit");
             int task = sc.nextInt();
             switch (task){
                 case 1:
